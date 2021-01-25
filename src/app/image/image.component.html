@@ -1,3 +1,4 @@
-<p>
-  image works!
-</p>
+<div>
+  <button (click)="refetch()">Refetch!</button>
+</div>
+<img *ngIf="imageData" [src]="imageData" />
